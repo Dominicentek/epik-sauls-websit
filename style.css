@@ -1,0 +1,25 @@
+ul {
+    background: linear-gradient(90deg, rgba(0, 0, 255, 0.5) 0%, rgba(255, 0, 0, 0.5) 25%, rgba(0, 191, 0, 0.5) 50%, rgba(255, 255, 0, 0.5) 75%, rgba(255, 127, 0, 0.5) 100%);
+    font-size: 24px;
+}
+li {
+    list-style-image: url("files/saul.jpg")
+}
+* {
+    color: white;
+    font-family: "Comic Sans MS", serif;
+}
+.title {
+    text-align: center;
+    font-size: 69px;
+}
+.saul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("files/saul.gif");
+    background-size: 100% 100%;
+    z-index: -1000;
+}
