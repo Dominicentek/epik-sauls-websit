@@ -16,3 +16,8 @@ function generate() {
 function random(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+function beatboxMode(enabled) {
+    let audio =  document.getElementById("audio");
+    audio.src = enabled ? "files/saul-beatbox.mp3" : "files/saul.mp3";
+    audio.parentNode.load();
+}
